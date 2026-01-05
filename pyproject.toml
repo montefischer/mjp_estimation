@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mjp_estimation"
+version = "0.1"
+
+[tool.setuptools.packages.find]
+where = ["src"]
